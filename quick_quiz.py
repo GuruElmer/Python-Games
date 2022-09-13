@@ -1,7 +1,7 @@
 from tkinter.messagebox import YES
 
 
-print('Hello And Welcome To My Quiz')
+print('Hello And Welcome To My Computer Knoledge Quiz')
 
 playing = input('Do You Want to Play? ')
 
@@ -42,6 +42,9 @@ else:
 print('You got ' +str(score) + ' questions correct!')
 
 print('You got ' +str((score/4) * 100) + '%.')
+
+print('Thanks For Playing!')
+
 
 
         
